@@ -1,0 +1,57 @@
+body {
+  padding-top: 0px;  /* Move body of page below navbar. */
+  font-family: "Open Sans", sans-serif;
+  color: #999;
+  background-color: #999;
+}
+
+/*
+The typical way we put an image fixed to the top of a page:
+*/
+.header-image {
+  background-image: url('header.jpg');
+  background-size: cover;
+  height: 195px;
+}
+
+.navbar-inverse {
+  background-color: #710C0C;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #999;
+  font-size: 16px;
+}
+
+.well {
+  color: #999;
+  background-color: #710C0C;
+  border-color: #710C0C;
+}
+
+h1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: #999999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Add the Knight Pride image to the middle column. Use height: 400px; background-size: contain; background-repeat: no-repeat; background-position: center.*/
+.knight-img {
+  background-image: url(frontpage.jpg);
+  height: 400px;
+  backgorund-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
